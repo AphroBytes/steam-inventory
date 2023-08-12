@@ -1,0 +1,33 @@
+{
+  "name": "steam-inventory",
+  "version": "1.0.0",
+  "description": "Get the user steam inventory.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luc4sguilherme/steam-inventory.git"
+  },
+  "files": [
+    "src",
+    "index.d.ts",
+    "LICENSE.md",
+    "README.md",
+    "package.json"
+  ],
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "request": "^2.88.2",
+    "steamid": "^2.0.0"
+  },
+  "keywords": [
+    "steam",
+    "steam-inventory"
+  ],
+  "author": "Lucas Guilherme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luc4sguilherme/steam-inventory/issues"
+  },
+  "homepage": "https://github.com/Luc4sguilherme/steam-inventory#readme"
+}
